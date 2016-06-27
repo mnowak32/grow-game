@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "A server side of the Growe game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "mnowak",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "uuid": "~2.0.2",
+    "body-parser": "~1.15.2",
+    "socket.io": "~1.4.8",
+    "express": "~4.14.0",
+    "http": "0.0.0"
+  }
+}
